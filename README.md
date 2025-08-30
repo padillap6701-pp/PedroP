@@ -1,2 +1,2 @@
 # PedroP
-Universal Studio rides
+A website about my favorite Universal Studio rides
