@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <style>
+        body {
+            background-color: #000080; /* Dark blue background */
+            color: white;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        form {
+            background-color: #191970; /* Slightly different blue for form */
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .form-section {
+            background-color: #4169E1; /* Royal blue for fieldset */
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .comment-box {
+            background-color: #F0E68C; /* Khaki for comment box */
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            width: 95%;
+            height: 100px;
+        }
+        input[type="submit"], input[type="reset"] {
+            background-color: #FF8C00; /* Dark Orange */
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <p>
+        <a href="index.html">Home</a> |
+        <a href="rides.html">Rides</a> |
+        <a href="contact.html">Contact</a>
+    </p>
+
+    <h1>Contact Us</h1>
+
+    <form>
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+
+        <label for="topic">Select your favorite part of the park:</label><br>
+        <select id="topic" name="topic">
+            <option value="hp">The Wizarding World of Harry Potter</option>
+            <option value="jurassic">Jurassic Park</option>
+            <option value="minion">Despicable Me Minion Mayhem</option>
+            <option value="mummy">Revenge of the Mummy</option>
+        </select><br><br>
+
+        <fieldset class="form-section">
+            <legend>Your Experience</legend>
+            <input type="radio" id="exp1" name="experience" value="excellent">
+            <label for="exp1">Excellent</label><br>
+            <input type="radio" id="exp2" name="experience" value="good">
+            <label for="exp2">Good</label><br>
+            <input type="radio" id="exp3" name="experience" value="average">
+            <label for="exp3">Average</label><br>
+            <input type="radio" id="exp4" name="experience" value="poor">
+            <label for="exp4">Poor</label><br>
+        </fieldset><br>
+
+        <label for="comments">Enter your comments here:</label><br>
+        <textarea id="comments" name="comments" class="comment-box" placeholder="Enter your comments here..."></textarea><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+    
+    <br><br>
+
+    <h2>Check out the new rides!</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/PnfIdUH0_74" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</body>
+</html>
